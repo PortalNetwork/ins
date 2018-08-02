@@ -1,4 +1,4 @@
-![ICON Name Service](./assets/title.png)
+![ICON Name Service](./assets/title.jpg)
 
 > 📖🔍 Documents and implementations for the ICON Name Service.
 
