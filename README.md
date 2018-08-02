@@ -1,5 +1,7 @@
 ![ICON Name Service](./assets/title.jpg)
 
+[![Join the chat at https://gitter.im/PortalNetwork/ins](https://badges.gitter.im/PortalNetwork/ins.svg)](https://gitter.im/PortalNetwork/ins?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 > 📖🔍 Documents and implementations for the ICON Name Service.
 
 ## 📝 Description
