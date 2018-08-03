@@ -4,11 +4,11 @@
 INS is the ICON Name Service, a distributed, open, and extensible naming system based on the ICON blockchain.  
 INS is to map human-readable names like `portal.icon` to machine-readable identifiers such as ICON addresses, content hashes, and metadata. INS also supports `reverse resolution`, making it possible to associate metadata such as canonical names or interface descriptions with ICON addresses.
 
-INS has similar goals to DNS, the Internet’s Domain Name Service, but has significantly different architecture, due to the capabilities and constraints provided by the ICON blockchain. Like DNS, NNS operates on a system of dot-separated hierarchial names called domains, with the owner of a domain having full control over the allocation of subdomains.
+INS has similar goals to DNS, the Internet’s Domain Name Service, but has significantly different architecture, due to the capabilities and constraints provided by the ICON blockchain. Like DNS, INS operates on a system of dot-separated hierarchial names called domains, with the owner of a domain having full control over the allocation of subdomains.
 
 Top-level domains, like `.icon` are owned by smart contracts called registrars, which specify rules governing the allocation of their subdomains. Anyone may, by following the rules imposed by these registrar contracts, obtain ownership of a second-level domain for their own use.
 
-## Why we need NNS?
+## Why we need INS?
 Blockchain addresses are not friendly enough to humans, the hash addresses are too long, hard to remember, and not easy to identify which is correct or incorrect.  
 
 The blockchain now becomes more and more popular, the shortcomings of address transfer will become more and more obvious. Just as we are sending emails today, it is difficult to use a 32-bit string as an email account. Therefore, an alias service is very helpful for the ease of use of the blockchain system. For example, IPFS has an alias service called InterPlanetary Name Service (IPNS), and Ethereum has its own domain name service called Ethereum Name Service (ENS). We do think that ICON system should also have its own alias service. Called ICON Name Service (INS),
