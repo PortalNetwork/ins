@@ -1,6 +1,6 @@
 # Implementation
 
-## NNS Spec
+## INS Spec
 
 The internet HTTP protocol is using the URL below:
 
