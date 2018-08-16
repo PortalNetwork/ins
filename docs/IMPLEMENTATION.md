@@ -3,7 +3,7 @@
 ## INS Smart Contracts
 
 The link of INS smart contract as below:
-- [Regsitry](../ins/ins_resigry)
+- [Registry](../ins/ins_registry)
 - [Registrar](../ins/ins_registrar)
 - [Resolver](../ins/ins_resolver)
 
