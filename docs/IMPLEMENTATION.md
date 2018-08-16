@@ -1,5 +1,14 @@
 # Implementation
 
+## INS Smart Contracts
+
+The link of INS smart contract as below:
+- [Regsitry](../ins/ins_resigry)
+- [Registrar](../ins/ins_registrar)
+- [Resolver](../ins/ins_resolver)
+
+More information about INS implementation as [HERE](../ins/)
+
 ## INS Spec
 
 The internet HTTP protocol is using the URL below:
