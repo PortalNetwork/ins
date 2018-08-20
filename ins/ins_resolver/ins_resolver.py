@@ -64,7 +64,7 @@ class INSResolver(IconScoreBase):
             self.__multihash[node][name] = multihash
 
     @external
-    def setTest(self, node: bytes, key: str, value: str) -> None:
+    def setText(self, node: bytes, key: str, value: str) -> None:
         if self.__ins_registry_score.owner(node) == self.msg.sender:
             self.TextChanged(node, key, value)
             self.__text[node][key] = value
