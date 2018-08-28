@@ -4,6 +4,9 @@
 
 > 📖🔍 Documents and implementations for the ICON Name Service.
 
+## What is BNS?
+BNS – or blockchain name system – is the protocol on the internet that turns human-comprehensible decentralized website names such as ‘website.icx’ or ‘mywebsite.eth’ into addresses understandable by decentralized network machines.
+
 ## 📝 Description
 
 INS is the ICON Name Service, a distributed, open, and extensible naming system based on the ICON blockchain.

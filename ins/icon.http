@@ -1,0 +1,69 @@
+### ICON RPC 
+
+### get Last Block
+POST http://127.0.0.1:9000/api/v3/
+Content-Type: application/json
+
+{
+    "jsonrpc": "2.0",
+    "method": "icx_getLastBlock",
+    "id": 1234
+}
+
+### get Block Height
+POST http://127.0.0.1:9000/api/v3/
+Content-Type: application/json
+
+{
+    "jsonrpc": "2.0",
+    "method": "icx_getBlockByHeight",
+    "id": 1234,
+    "params": {
+        "height": "0x3"
+    }
+}
+
+### get Block by Hash
+POST http://127.0.0.1:9000/api/v3/
+Content-Type: application/json
+
+{
+    "jsonrpc": "2.0",
+    "method": "icx_getBlockByHash",
+    "id": 1234,
+    "params": {
+        "hash": "0x87f9858e28c7d9d11d2e2a773abd4181afbc597e71409dab64dc9fcf917cbf27"
+    }
+}
+
+### get Balance
+POST http://127.0.0.1:9000/api/v3/
+Content-Type: application/json
+
+{
+    "jsonrpc": "2.0",
+    "method": "icx_getBalance",
+    "id": 1234,
+    "params": {
+        "address": "hxb0776ee37f5b45bfaea8cff1d8232fbb6122ec32"
+    }
+}
+
+### call
+POST http://127.0.0.1:9000/api/v3/
+Content-Type: application/json
+
+{
+    "jsonrpc": "2.0",
+    "method": "icx_call",
+    "id": 1234,
+    "params": {
+        "from": "hxb0776ee37f5b45bfaea8cff1d8232fbb6122ec32", // TX sender address
+        "to": "cx6bd390bd855f086e3e9d525b46bfe24511431532",   // SCORE address
+        "dataType": "call",
+        "data": {
+            "method": "hello"
+        }
+    }
+}
+
