@@ -201,6 +201,7 @@ vi call.json
   },
   "id": 1
 }
+```
 
 Call a SCORE method
 ```
