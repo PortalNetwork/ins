@@ -4,7 +4,10 @@
 
 > 📖🔍 Documents and implementations for the ICON Name Service.
 
-## What is BNS?
+## 💡 What is ICON?
+ICON is building a massive platform that will allow various blockchains to interact with each other via smart contracts.  Existing within what developers brand the ICON Republic, communities will connect with each other using ICON’s loopchain technology.
+
+## 💡 What is BNS?
 BNS – or blockchain name system – is the protocol on the internet that turns human-comprehensible decentralized website names such as ‘website.icx’ or ‘mywebsite.eth’ into addresses understandable by decentralized network machines.
 
 ## 📝 Description
