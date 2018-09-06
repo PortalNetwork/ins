@@ -24,6 +24,15 @@ brew install leveldb
 brew install rabbitmq
 ```
 
+### Install Other tools
+```
+brew install automake
+brew install pkg-config
+brew install libtool
+brew install libffi
+brew install gmp
+```
+
 ### Create a folder for the service
 ```
 mkdir icon
