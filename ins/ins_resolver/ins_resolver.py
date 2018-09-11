@@ -30,7 +30,7 @@ class INSResolver(IconScoreBase):
     def __init__(self, db: IconScoreDatabase) -> None:
         super().__init__(db)
 
-        self.__addr_ins_registry_score = VarDB(self.__ADDR_TOKEN_SCORE, db, value_type=Address)
+        self.__addr_ins_registry_score = VarDB(self.__ADDR_INS_REGISTRY_SCORE, db, value_type=Address)
         self.__address = DictDB(self.__ADDRESS, db, value_type=Address)
         self.__multihash = DictDB(self.__MULTIHASH, db, value_type=bytes, depth=2)
         self.__text = DictDB(self.__TEXT, db, value_type=str, depth=2)
@@ -40,7 +40,7 @@ class INSResolver(IconScoreBase):
             self.__addr_ins_registry_score.get(), INSRegistryInterface)
 
     # TODO ins_address should be defined
-    def on_install(self, ins_address: str = '') -> None:
+    def on_install(self, ins_address: str = 'cx1390e811b2e0a9f2e5559ea26d8a39bc4b747a7a') -> None:
         super().on_install()
 
         ins_registry_address = Address.from_string(ins_address)
