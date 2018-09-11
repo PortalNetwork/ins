@@ -26,6 +26,9 @@ INS is the ICON Name Service, a distributed, open, and extensible naming system 
 -  [Developer Guide](./docs/DEVELOPER_GUIDE.md)
 -  [Integration](./docs/INTEGRATION.md)
 
+## 📝 Guideline
+- [Tutorial](./docs/TUTORIAL.md)
+
 ## Reference
 - [IIP6](https://github.com/icon-project/IIPs/blob/master/IIPS/iip-6.md) - ICON Name Service Standard
 
