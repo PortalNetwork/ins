@@ -1,1 +1,10 @@
 .idea/
+bin/
+include/
+lib/
+pip-selfcheck.json
+share/
+exc/
+tbears.log
+.score/
+.statedb/
