@@ -1,0 +1,16 @@
+{
+    "jsonrpc": "2.0",
+    "method": "icx_call",
+    "params": {
+      "from": "hxef73db5d0ad02eb1fadb37d0041be96bfa56d4e6",
+      "to": "cx391a9a74b552198d90d4c0e11590373b030c6184",
+      "dataType": "call",
+      "data": {
+        "method": "holder",
+        "params": {
+            "node": "hello.icon"
+        }
+      }
+    },
+    "id": 1
+  }

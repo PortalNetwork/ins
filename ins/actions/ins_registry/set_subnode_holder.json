@@ -1,0 +1,24 @@
+{
+    "jsonrpc": "2.0",
+    "method": "icx_sendTransaction",
+    "params": {
+      "version": "0x3",
+      "from": "hxbd45f57b9cae906f3166713311c57e8e5a0bc785",
+      "value": "0x0",
+      "stepLimit": "0x3000000",
+      "timestamp": "0x573117f1d6568",
+      "nid": "0x3",
+      "nonce": "0x1",
+      "to": "cx663e54212baea6a32a76ba15202fc55f6322819e",
+      "dataType": "call",
+      "data": {
+        "method": "setSubnodeHolder",
+        "params": {
+          "node": "icon",
+          "label": "portal",
+          "addr": "hxbd45f57b9cae906f3166713311c57e8e5a0bc785"
+        }
+      }
+    },
+    "id": 1
+  }

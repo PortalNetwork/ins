@@ -1,0 +1,16 @@
+{
+    "jsonrpc": "2.0",
+    "method": "icx_call",
+    "params": {
+      "from": "hxef73db5d0ad02eb1fadb37d0041be96bfa56d4e6",
+      "to": "cxecd7052add32b867df043e5ee2c49b3045e23401",
+      "dataType": "call",
+      "data": {
+        "method": "addr",
+        "params": {
+            "node": "hello.icon"
+        }
+      }
+    },
+    "id": 1
+  }
