@@ -3,54 +3,102 @@
 ## INS Registry
 Implementation of a simple registrar, which issues (sub)domains to the first account to request them.
 
-#### def holder(self, node: str) -> Address
+#### holder
 Returns the holder of the specified domain.
+```
+def holder(self, node: str) -> Address
+```
 
-#### def resolver(self, node: str) -> Address
+#### resolver
 Returns the resolver of the specified domain.
+```
+def resolver(self, node: str) -> Address
+```
 
-#### def ttl(self, node: str) -> int
+#### ttl
 Returns the ttl of the specified domain.
+```
+def ttl(self, node: str) -> int
+```
 
-#### def setHolder(self, node: str, addr: Address) -> None
+#### setHolder
 Update the holder to the sepcified domain.
+```
+def setHolder(self, node: str, addr: Address) -> None
+```
 
-#### def setSubnodeHolder(self, node: str, label: str, addr: Address) -> None
+#### setSubnodeHolder
 Set the holder to the specified subdomain.
+```
+def setSubnodeHolder(self, node: str, label: str, addr: Address) -> None
+```
 
-#### def setResolver(self, node: str, resolver: Address) -> None
+#### setResolver
 Set the resolver to the specified domain. 
+```
+def setResolver(self, node: str, resolver: Address) -> None
+```
 
-#### def setTTL(self, node: str, ttl: int) -> None
+#### setTTL
 Set the time to leave to the specified domain.
+```
+def setTTL(self, node: str, ttl: int) -> None
+```
 
 ## INS Registrar
 
-#### def register(self, subnode: str, holder: Address) -> None
+#### register
 Use to register domain with specified address.
+```
+def register(self, subnode: str, holder: Address) -> None
+```
 
 ## INS Resolver
 
-#### def setAddr(self, node: str, addr: Address) -> None
+#### setAddr
 Map address with the specified domain.
+```
+def setAddr(self, node: str, addr: Address) -> None
+```
 
-#### def setMultihash(self, node: str, name: str, multihash: str) -> None
+#### setMultihash
 Map multihash with the specified domain and type.
+```
+def setMultihash(self, node: str, name: str, multihash: str) -> None
+```
 
-#### def setText(self, node: str, key: str, value: str) -> None
+#### setText
 Map text with the specified domain.
+```
+def setText(self, node: str, key: str, value: str) -> None
+```
 
-#### def setName(self, node: str, name: str) -> None
+#### setName
 Map name with the specified domain.
+```
+def setName(self, node: str, name: str) -> None
+```
 
-#### def addr(self, node: str) -> Address
+#### addr
 Returns the address of the specified domain.
+```
+def addr(self, node: str) -> Address
+```
 
-#### def multihash(self, node: str, name: str) -> str
+#### multihash
 Returns the multihash of the specified domain and type.
+```
+def multihash(self, node: str, name: str) -> str
+```
 
-#### def text(self, node: str, key: str) -> str
+#### text
 Returns the text of the specified domain.
+```
+def text(self, node: str, key: str) -> str
+```
 
-#### def name(self, node: str) -> str
+#### name
 Returns the name of the specified domain.
+```
+def name(self, node: str) -> str
+```
