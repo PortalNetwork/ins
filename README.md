@@ -17,18 +17,20 @@ INS is the ICON Name Service, a distributed, open, and extensible naming system 
 ## 📚 Documents
 
 #### Table of Contents
--  [Introduction](./docs/INTRODUCTION.md)
--  [Implementation](./docs/IMPLEMENTATION.md)
+- [Introduction](./docs/INTRODUCTION.md)
+- [Implementation](./docs/IMPLEMENTATION.md)
     - [Registry](./docs/REGISTRY.md)
     - [Registrar](./docs/REGISTRAR.md)
     - [Resolver](./docs/RESOLVER.md)
     - [ReverseRegistrar](./docs/REVERSE_REGISTRAR.md)
--  [Developer Guide](./docs/DEVELOPER_GUIDE.md)
--  [Integration](./docs/INTEGRATION.md)
+- [Developer Guide](./docs/DEVELOPER_GUIDE.md)
+- [Integration](./docs/INTEGRATION.md)
+- [Spec](./docs/SPEC.md)
 
 ## 📝 Guideline
 - [Tutorial](./docs/TUTORIAL.md)
 - [T-bears](./docs/T-BEARS.md)
+- [STEP](./docs/STEP.md)
 
 ## 🗂️ INS Stack
 
