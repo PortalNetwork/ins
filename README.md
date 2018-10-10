@@ -25,7 +25,7 @@ INS is the ICON Name Service, a distributed, open, and extensible naming system 
     - [ReverseRegistrar](./docs/REVERSE_REGISTRAR.md)
 - [Developer Guide](./docs/DEVELOPER_GUIDE.md)
 - [Integration](./docs/INTEGRATION.md)
-- [Spec](./docs/SPEC.md)
+- [Spec](./ins/SPEC.md)
 
 ## 📝 Guideline
 - [Tutorial](./docs/TUTORIAL.md)
