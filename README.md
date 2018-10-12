@@ -30,6 +30,10 @@ INS is the ICON Name Service, a distributed, open, and extensible naming system 
 - [Tutorial](./docs/TUTORIAL.md)
 - [T-bears](./docs/T-BEARS.md)
 
+## INS Workflow
+
+![INS Workflow](./assets/ICON_web3.png)
+
 ## 🗂️ INS Stack
 
 ![INS Stack](./assets/ICON_1.png)
