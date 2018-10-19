@@ -34,11 +34,6 @@ INS is the ICON Name Service, a distributed, open, and extensible naming system 
 
 ## Testnet Contracts
 
-
-Registry: cx1720bef7a1d0552e4609c5a72a71a173ca84b8f7
-Registrar: cxb444156d3c905d4b690e1f8cb20e492624cc6e74
-Resolver: cx5a6af92d8aeee267aab82ff6535a65f2ffa0b40f
-
 Title            | Description
 -----------------|-------------------------------------------------------
 Name             | Yeouido (여의도)
@@ -53,7 +48,7 @@ INS Contract | Network    | Contract Address                           | Transac
 -------------|------------|--------------------------------------------|-----------------------------------------------
 Registry     | Yeouido    | cx1720bef7a1d0552e4609c5a72a71a173ca84b8f7 | [0xbabcb7c2a92ff57654d08db662a0db2f1719b2adac2e99b37c3cf16b664afccb](https://bicon.tracker.solidwallet.io/transaction/0xbabcb7c2a92ff57654d08db662a0db2f1719b2adac2e99b37c3cf16b664afccb)
 Registrar    | Yeouido    | cxb444156d3c905d4b690e1f8cb20e492624cc6e74 | [0x344a38f23e1e17af67519fe645c1cd9c9e67b7e129001edd13cb98030591729b](https://bicon.tracker.solidwallet.io/transaction/0x344a38f23e1e17af67519fe645c1cd9c9e67b7e129001edd13cb98030591729b)
-Resolvdr     | Yeouido    | cx5a6af92d8aeee267aab82ff6535a65f2ffa0b40f | [0x5bd81c81c6bea2a09e406997741905135ca44048c879f861859daea448d6d643](https://bicon.tracker.solidwallet.io/transaction/0x5bd81c81c6bea2a09e406997741905135ca44048c879f861859daea448d6d643)
+Resolver     | Yeouido    | cx5a6af92d8aeee267aab82ff6535a65f2ffa0b40f | [0x5bd81c81c6bea2a09e406997741905135ca44048c879f861859daea448d6d643](https://bicon.tracker.solidwallet.io/transaction/0x5bd81c81c6bea2a09e406997741905135ca44048c879f861859daea448d6d643)
 
 ## INS Workflow
 
