@@ -1,5 +1,4 @@
 from iconservice import *
-from Crypto.Hash import keccak
 import re
 
 class INSRegistry(IconScoreBase):

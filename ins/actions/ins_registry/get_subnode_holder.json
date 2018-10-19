@@ -1,16 +1,16 @@
 {
-    "jsonrpc": "2.0",
-    "method": "icx_call",
-    "params": {
-      "from": "hxef73db5d0ad02eb1fadb37d0041be96bfa56d4e6",
-      "to": "cx663e54212baea6a32a76ba15202fc55f6322819e",
-      "dataType": "call",
-      "data": {
-        "method": "holder",
-        "params": {
-            "node": "portal.icon"
-        }
+  "jsonrpc": "2.0",
+  "method": "icx_call",
+  "params": {
+    "from": "hxef73db5d0ad02eb1fadb37d0041be96bfa56d4e6",
+    "to": "cx663e54212baea6a32a76ba15202fc55f6322819e",
+    "dataType": "call",
+    "data": {
+      "method": "holder",
+      "params": {
+          "node": "portal.icon"
       }
-    },
-    "id": 1
-  }
+    }
+  },
+  "id": 1
+}

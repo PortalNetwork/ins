@@ -40,7 +40,7 @@ class INSResolver(IconScoreBase):
             self.__addr_ins_registry_score.get(), INSRegistryInterface)
 
     # TODO ins_address should be defined
-    def on_install(self, ins_address: str = 'cx391a9a74b552198d90d4c0e11590373b030c6184') -> None:
+    def on_install(self, ins_address: str = 'cx1720bef7a1d0552e4609c5a72a71a173ca84b8f7') -> None:
         super().on_install()
 
         ins_registry_address = Address.from_string(ins_address)
