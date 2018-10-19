@@ -1,6 +1,6 @@
 {
-    "hostAddress": "127.0.0.1",
-    "port": 9000,
+    "hostAddress": "https://bicon.net.solidwallet.io",
+    "port": "",
     "scoreRootPath": "./.score",
     "stateDbRootPath": "./.statedb",
     "log": {

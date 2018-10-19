@@ -1,23 +1,23 @@
 {
-    "jsonrpc": "2.0",
-    "method": "icx_sendTransaction",
-    "params": {
-      "version": "0x3",
-      "from": "hxbd45f57b9cae906f3166713311c57e8e5a0bc785",
-      "value": "0x0",
-      "stepLimit": "0x3000000",
-      "timestamp": "0x573117f1d6568",
-      "nid": "0x3",
-      "nonce": "0x1",
-      "to": "cx391a9a74b552198d90d4c0e11590373b030c6184",
-      "dataType": "call",
-      "data": {
-        "method": "setResolver",
-        "params": {
-          "node": "hello.icon",
-          "resolver": "cxecd7052add32b867df043e5ee2c49b3045e23401"
-        }
+  "jsonrpc": "2.0",
+  "method": "icx_sendTransaction",
+  "params": {
+    "version": "0x3",
+    "from": "hxbd45f57b9cae906f3166713311c57e8e5a0bc785",
+    "value": "0x0",
+    "stepLimit": "0x3000000",
+    "timestamp": "0x573117f1d6568",
+    "nid": "0x3",
+    "nonce": "0x1",
+    "to": "cx391a9a74b552198d90d4c0e11590373b030c6184",
+    "dataType": "call",
+    "data": {
+      "method": "setResolver",
+      "params": {
+        "node": "hello.icon",
+        "resolver": "cxecd7052add32b867df043e5ee2c49b3045e23401"
       }
-    },
-    "id": 1
-  }
+    }
+  },
+  "id": 1
+}

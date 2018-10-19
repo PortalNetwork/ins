@@ -1,7 +1,9 @@
 ### ICON RPC 
+//@endpoint = http://127.0.0.1:9000/api/v3/
+@endpoint = https://bicon.net.solidwallet.io/api/v3
 
 ### get Last Block
-POST http://127.0.0.1:9000/api/v3/
+POST {{endpoint}}
 Content-Type: application/json
 
 {
@@ -11,7 +13,7 @@ Content-Type: application/json
 }
 
 ### get Block Height
-POST http://127.0.0.1:9000/api/v3/
+POST {{endpoint}}
 Content-Type: application/json
 
 {
@@ -24,7 +26,7 @@ Content-Type: application/json
 }
 
 ### get Block by Hash
-POST http://127.0.0.1:9000/api/v3/
+POST {{endpoint}}
 Content-Type: application/json
 
 {
@@ -37,7 +39,7 @@ Content-Type: application/json
 }
 
 ### get Balance
-POST http://127.0.0.1:9000/api/v3/
+POST {{endpoint}}
 Content-Type: application/json
 
 {
@@ -45,12 +47,12 @@ Content-Type: application/json
     "method": "icx_getBalance",
     "id": 1234,
     "params": {
-        "address": "hxb0776ee37f5b45bfaea8cff1d8232fbb6122ec32"
+        "address": "hx809c3d94a696b4703614c3667b4dac0693e81067"
     }
 }
 
 ### call
-POST http://127.0.0.1:9000/api/v3/
+POST {{endpoint}}
 Content-Type: application/json
 
 {
