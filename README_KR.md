@@ -4,6 +4,8 @@
 
 > 📖🔍 ICON 네임 서비스 문서 및 구현.
 
+| [English](./README.md) | [한국어](./README_KR.md) |  
+
 ## 💡 ICON 이란?
 ICON은 다양한 블록체인 스마트 컨트랙을 통해 자본시장, 보험, 대학교, 헬스케어 등 다양한 커뮤니티를 ICON Republic의 루프체인 (Loopchain)을 통해 상호 연결하는 플랫폼을 구축하고 있습니다.
 
