@@ -33,6 +33,25 @@ INS (ICON 네임 서비스)는 ICON 블록체인을 기반으로 분산 및 확�
 - [T-bears](./docs/T-BEARS.md)
 - [STEP](./docs/STEP.md)
 
+## Testnet 계약
+
+Title            | Description
+-----------------|-------------------------------------------------------
+Name             | Yeouido (여의도)
+Node             | https://bicon.net.solidwallet.io
+API endpoint     | https://bicon.net.solidwallet.io/api/v3
+Network ID (nid) | 3
+Tracker          | https://bicon.tracker.solidwallet.io
+Transaction fee	 | on
+SCORE audit      | off
+
+INS Contract | Network    | Contract Address                           | Transaction Hash
+-------------|------------|--------------------------------------------|-----------------------------------------------
+Registry     | Yeouido    | cx1720bef7a1d0552e4609c5a72a71a173ca84b8f7 | [0xbabcb7c2a92ff57654d08db662a0db2f1719b2adac2e99b37c3cf16b664afccb](https://bicon.tracker.solidwallet.io/transaction/0xbabcb7c2a92ff57654d08db662a0db2f1719b2adac2e99b37c3cf16b664afccb)
+Registrar    | Yeouido    | cxb444156d3c905d4b690e1f8cb20e492624cc6e74 | [0x344a38f23e1e17af67519fe645c1cd9c9e67b7e129001edd13cb98030591729b](https://bicon.tracker.solidwallet.io/transaction/0x344a38f23e1e17af67519fe645c1cd9c9e67b7e129001edd13cb98030591729b)
+Resolver     | Yeouido    | cx5a6af92d8aeee267aab82ff6535a65f2ffa0b40f | [0x5bd81c81c6bea2a09e406997741905135ca44048c879f861859daea448d6d643](https://bicon.tracker.solidwallet.io/transaction/0x5bd81c81c6bea2a09e406997741905135ca44048c879f861859daea448d6d643)
+
+
 ## INS 워크플로우
 
 ![INS Workflow](./assets/ICON_web3.png)
