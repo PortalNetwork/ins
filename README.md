@@ -53,7 +53,7 @@ Registrar    | Yeouido    | cxb444156d3c905d4b690e1f8cb20e492624cc6e74 | [0x344a
 Resolver     | Yeouido    | cx5a6af92d8aeee267aab82ff6535a65f2ffa0b40f | [0x5bd81c81c6bea2a09e406997741905135ca44048c879f861859daea448d6d643](https://bicon.tracker.solidwallet.io/transaction/0x5bd81c81c6bea2a09e406997741905135ca44048c879f861859daea448d6d643)
 
 ## 📍 ICON in Web3.0
-
+INS plays an connecting and entry layer in Web3.0 services. It connects with ICON wallet, blockchain server, decentralized content resources, and decentralized database.
 ![INS Workflow](./assets/ICON_web3.png)
 
 ## 🗂️ INS Technical Stack
