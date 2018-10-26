@@ -57,7 +57,7 @@ INS plays an connecting and entry layer in Web3.0 services. It connects with ICO
 ![INS Workflow](./assets/ICON_web3.png)
 
 ## 🗂️ INS Technical Stack
-
+ICON Name Service (INS) governs by three smart contract components, registrar, registry, and resolver. The three smart contracts contain the core logic for the whole ICON Name System implementation which is from the ownership managment for a domain, how to securely save the data, to the global resolving layer. The INS global resolving layer can connect different tech stacks and enhances the usability for different infrastructures.
 ![INS Stack](./assets/ICON_1.png)
 
 ### State Layer
