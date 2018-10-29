@@ -6,6 +6,8 @@
 
 | [English](./README.md) | [한국어](./README_KR.md) |  
 
+# Overview
+
 ## 💡 What is ICON?
 ICON is building a massive platform that will allow various blockchains to interact with each other via smart contracts.  Existing within what developers brand the ICON Republic, communities will connect with each other using ICON’s loopchain technology.
 
