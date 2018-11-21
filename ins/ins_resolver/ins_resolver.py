@@ -60,7 +60,7 @@ class INSResolver(IconScoreBase):
     @external
     def setMultihash(self, node: str, name: str, multihash: str) -> None:
         if self.__ins_registry_score.holder(node) == self.msg.sender:
-            self.MultihashChanged(node, multihash)
+            self.MultihashChanged(node, name, multihash)
             self.__multihash[node][name] = multihash
 
     @external
